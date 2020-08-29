@@ -18,4 +18,9 @@ public class TestApplication {
         return "Hello Word!!";
     }
 
+    @GetMapping("/two")
+    public String get2() {
+        return "Hello Word!!";
+    }
+
 }
