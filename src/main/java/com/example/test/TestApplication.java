@@ -15,12 +15,12 @@ public class TestApplication {
 
     @GetMapping
     public String get() {
-        return "Hello Word!!";
+        return "Hello Word22!!";
     }
 
     @GetMapping("/two")
     public String get2() {
-        return "Hello Word!!";
+        return "Hello Word22!!";
     }
 
 }
