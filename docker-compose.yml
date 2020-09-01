@@ -21,7 +21,7 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8088:8088"
-    links:
+    networks:
       mynet:
 
 networks:
