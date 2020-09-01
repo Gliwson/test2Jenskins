@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: backend
+  cloud:
+    config:
+      uri: http://192.168.99.102:8088
+  profiles:
+    active: native
