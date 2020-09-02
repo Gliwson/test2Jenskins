@@ -9,7 +9,6 @@
 
     <modules>
         <module>demo</module>
-        <module>configserver</module>
     </modules>
 
 </project>
