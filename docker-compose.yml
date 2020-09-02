@@ -7,13 +7,10 @@ services:
     build:
       context: ./demo
       dockerfile: Dockerfile
-    depends_on:
-      - config
     ports:
       - "8085:8080"
-    networks:
-      mynet:
 
 networks:
-  mynet:
-    driver: bridge
+  default:
+    external:
+      name: my-shared-network
