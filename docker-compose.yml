@@ -11,8 +11,3 @@ services:
       - "8085:8080"
     networks:
       - default
-
-networks:
-  default:
-    external:
-      name: scoring_default
