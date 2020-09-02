@@ -3,6 +3,6 @@ spring:
     name: backend
   cloud:
     config:
-      uri: http://192.168.0.1:8088
+      uri: http://springconfig:8088
   profiles:
     active: native
