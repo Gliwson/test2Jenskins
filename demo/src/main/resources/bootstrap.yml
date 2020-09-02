@@ -3,7 +3,7 @@ spring:
     name: backend
   cloud:
     config:
-      uri: http://springconfig:8088
+      uri: http://192.168.224.2/20
       fail-fast: true
       retry:
         max-attempts: 20
