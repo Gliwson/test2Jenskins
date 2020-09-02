@@ -9,8 +9,9 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8085:8080"
+    networks:
+      - config_some-net
 
 networks:
-  default:
-    external:
-      name: my-shared-network
+  config_some-net:
+    external: true
