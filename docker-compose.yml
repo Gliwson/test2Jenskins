@@ -10,4 +10,9 @@ services:
     ports:
       - "8085:8080"
     networks:
-      - scoring_default
+      - default
+
+networks:
+  default:
+    external:
+      name: scoring_default
