@@ -21,7 +21,7 @@ public class BackendApplication {
 
 	@GetMapping
 	public String get() {
-		return "Hello Word5557!!" + springValue;
+		return "He Word5557!!" + springValue;
 	}
 
 	@GetMapping("/two")
