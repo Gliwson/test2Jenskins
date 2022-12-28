@@ -20,12 +20,12 @@ public class BackendApplication {
 	}
 
 	@GetMapping
-	public String get1() {
-		return "Hello Word555!!" + springValue;
+	public String get() {
+		return "He Word5557!!" + springValue;
 	}
 
 	@GetMapping("/two")
 	public String get2() {
-		return "Hello Word22!!";
+		return "Hello Word223!!";
 	}
 }
