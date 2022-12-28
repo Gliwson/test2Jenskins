@@ -20,7 +20,7 @@ public class BackendApplication {
 	}
 
 	@GetMapping
-	public String get() {
+	public String get1() {
 		return "Hello Word555!!" + springValue;
 	}
 
