@@ -26,6 +26,6 @@ public class BackendApplication {
 
 	@GetMapping("/two")
 	public String get2() {
-		return "Hello Word22!!";
+		return "Hello Word223!!";
 	}
 }
