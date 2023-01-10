@@ -21,6 +21,7 @@ public class BackendApplication {
 
 	@GetMapping
 	public String get() {
+		return "He Word5557!2!" + springValue;
 		return "Cherry pick" + springValue;
 	}
 
