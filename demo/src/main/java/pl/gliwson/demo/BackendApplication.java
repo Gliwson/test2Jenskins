@@ -20,8 +20,8 @@ public class BackendApplication {
 	}
 
 	@GetMapping
-	public String get1() {
-		return "He Word5557!!" + springValue;
+	public String get() {
+		return "Cherry pick" + springValue;
 	}
 
 	@GetMapping("/two")
