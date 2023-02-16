@@ -28,4 +28,14 @@ public class BackendApplication {
 	public String get2() {
 		return "Hello Word223!!";
 	}
+
+	@GetMapping("/two")
+	public String get3() {
+		return "Hello Word223!!";
+	}
+
+	@GetMapping("/two")
+	public String get4() {
+		return "Hello Word223!!";
+	}
 }
